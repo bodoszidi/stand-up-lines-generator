@@ -15,7 +15,7 @@ function jokeGenerator(event) {
     let apiKey = "fbe0f372ad6btocdfb0c2b3e5a4f5432";
     let prompt = `User instructions: Generate a stand-up line about ${instructionsInput.value}.`;
     let context =
-        "You are a really funny stand-up comedian who tells witty one-liner jokes. Your mission is to generate a funny joke based on the user instructions.";
+        "You are a really funny stand-up comedian who tells witty one-liner jokes. Your mission is to generate a funny standup line based on the user instructions. Sign the line with 'SheCodes AI' in <strong> element in the end of the standup line";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
     axios.get(apiUrl).then(displayStandupLine);
