@@ -4,49 +4,59 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="src/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Inconsolata"
+        />
         <title>Stend Up Lines Generator</title>
     </head>
     <body>
-        <header>
-            <h1>Welcome to my stand up lines generator</h1>
-        </header>
+        <div class="container">
+            <header>
+                <h1>Welcome to my stand up lines generator</h1>
+            </header>
 
-        <main>
-            <form action="">
-                <input
-                    type="text"
-                    placeholder="Enter topic of your lines"
-                    autofocus
-                    required
-                />
-                <input type="submit" />
-            </form>
+            <main>
+                <form action="">
+                    <input
+                        type="text"
+                        placeholder="Enter topic of your lines"
+                        autofocus
+                        required
+                        id="instructions"
+                    />
+                    <input 
+                    type="submit" 
+                    id="submit-button" />
+                </form>
 
-            <div>
-                “Love is like a fart. If you have to force it it’s probably s***"
-                <br />
-                Stephen K. Amos
-            </div>
-        </main>
+                <div class="stand-up-line">
+                    “Love is like a fart. If you have to force it, it’s probably
+                    s***.”
+                    <br />
+                    <strong>— Stephen K. Amos</strong>
+                </div>
+            </main>
 
-        <footer>
-            This project was coded by
-            <a href="https://github.com/bodoszidi" target="_blank"
-                >Szidonia Bodo</a
-            >
-            and it is
-            <a
-                href="https://github.com/bodoszidi/stand-up-lines-generator"
-                target="_blank"
-                >open-rource on Git Hub</a
-            >
-            and it is hosted by
-            <a
-                href="https://stand-up-lines-generator.netlify.app/"
-                target="_blank"
-                >Netlify</a
-            >
-        </footer>
+            <footer>
+                This project was coded by
+                <a href="https://github.com/bodoszidi" target="_blank"
+                    >Szidonia Bodo</a
+                >, it is
+                <a
+                    href="https://github.com/bodoszidi/stand-up-lines-generator"
+                    target="_blank"
+                >
+                    open source on GitHub</a
+                >, and hosted on
+                <a
+                    href="https://stand-up-lines-generator.netlify.app/"
+                    target="_blank"
+                >
+                    Netlify</a
+                >.
+            </footer>
+        </div>
         <script src="./src/index.js"></script>
     </body>
 </html>
