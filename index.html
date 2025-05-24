@@ -10,6 +10,8 @@
         />
         <title>Stend Up Lines Generator</title>
     </head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <body>
         <div class="container">
             <header>
@@ -17,7 +19,7 @@
             </header>
 
             <main>
-                <form action="">
+                <form id="standup-line-generator-form">
                     <input
                         type="text"
                         placeholder="Enter topic of your lines"
@@ -30,11 +32,7 @@
                     id="submit-button" />
                 </form>
 
-                <div class="stand-up-line">
-                    “Love is like a fart. If you have to force it, it’s probably
-                    s***.”
-                    <br />
-                    <strong>— Stephen K. Amos</strong>
+                <div class="stand-up-line", id="stand-up-line">
                 </div>
             </main>
 
