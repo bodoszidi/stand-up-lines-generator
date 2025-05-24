@@ -30,7 +30,7 @@ main {
 }
 form{
     padding: 30px;
-    background-color: white;
+    background-color: #E6EFFE;
     border-radius: 10px;
     display: flex;
     margin-bottom: 20px;
@@ -56,7 +56,7 @@ width: 200px;
 
 .stand-up-line {
     font-size: 14px;
-    background-color: white;
+    background-color: #E6EFFE;
     padding: 20px;
     line-height: 24px;
     border-left: 3px solid #1A7BF6;
